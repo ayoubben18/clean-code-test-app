@@ -1,5 +1,5 @@
 # expenses-app
-
+the deployed version of the app : https://expenses-app-test.fly.dev/
 To install dependencies:
 
 ```bash
