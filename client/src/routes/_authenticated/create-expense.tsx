@@ -1,7 +1,7 @@
 import InputForm from "@/components/InputForm";
 import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/create-expense")({
+export const Route = createFileRoute("/_authenticated/create-expense")({
   component: () => <CreateExpense />,
 });
 

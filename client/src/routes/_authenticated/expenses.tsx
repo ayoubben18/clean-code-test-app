@@ -1,7 +1,7 @@
 import ExpensesList from "@/components/ExpensesList";
 import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/expenses")({
+export const Route = createFileRoute("/_authenticated/expenses")({
   component: () => <Expenses />,
 });
 

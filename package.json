@@ -8,16 +8,21 @@
   },
   "devDependencies": {
     "@flydotio/dockerfile": "^0.5.7",
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.22.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "@hono/zod-validator": "^0.2.2",
+    "@kinde-oss/kinde-typescript-sdk": "^2.9.1",
+    "@libsql/client": "^0.6.2",
+    "drizzle-orm": "^0.31.0",
     "hono": "^4.4.2",
     "pino": "^9.1.0",
     "pino-pretty": "^11.1.0",
+    "turso": "^0.1.0",
     "zod": "^3.23.8"
   }
 }
